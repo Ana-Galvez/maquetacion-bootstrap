@@ -1,0 +1,10 @@
+body:has(option[value="dark"]:checked), body:has(option[value="dark"]:checked) img{
+  background-color: #000;
+  filter:invert(1);
+  -webkit-filter:invert(1);
+}
+
+body>select{
+  display: block;
+  margin: 1rem auto;
+}
